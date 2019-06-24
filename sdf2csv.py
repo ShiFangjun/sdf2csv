@@ -1,7 +1,7 @@
 from rdkit import Chem
 from rdkit.Chem.ChemUtils import SDFToCSV
 
-def sdf2csv(csv_name, sdf_name):
+def sdf2csv(sdf_name, csv_name):
     '''
     Convert sdf to csv
     '''
